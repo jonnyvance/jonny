@@ -1,6 +1,5 @@
 <template>
     <div class="contact">
-        <h1>Contact</h1>
         <form action="https://formspree.io/Jonny@harmonbrothers.com"
             method="POST">
             name: <input type="text" name="name">

@@ -19,12 +19,14 @@ export default {
 #app {
   margin-top: 0;
   font-family: 'Raleway', sans-serif;
-  color: #565656;
+  color: #6B7A8F;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 a:-webkit-any-link {
-  color: white;
+  color: #F7C331;
   text-decoration: none;
 }
 
@@ -32,36 +34,51 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #D7CEC7;
-  padding: 1.1em 3em;
+  padding: 0 24%;
   font-size: 1.2em;
 }
+
 #name {
   display: flex;
   flex-direction: column;
   line-height: 3.1em;
   font-size: 2.2rem;
-  color: #76323F;
+  color: #6B7A8F;
   font-family: 'Baloo', cursive;
-  padding: 1.3rem 0;
-
 }
+
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+  height: auto; 
+  margin: 3rem 0 .5rem 0;
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+
 h1 {
   margin: 0;
 }
-.embed-container { 
-    position: relative; 
-    padding-bottom: 56.25%; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; 
-    height: auto; 
-  } 
-  .embed-container iframe, .embed-container object, .embed-container embed { 
-    position: absolute; 
-    top: 10%; 
-    left: 12%; 
-    width: 75%; 
-    height: 75%; 
+
+h2, h3 {
+  margin: .1rem;
+}
+
+.view {
+  margin-bottom: 3rem;
+}
+
+.vidWidth {
+    max-width: 75%;
+    margin: auto;
 }
 </style>

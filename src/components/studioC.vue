@@ -1,11 +1,12 @@
 <template>
     <div class="studioC">
-        <h1>Studio C</h1>
-        <div id="videos" v-for="video in videos">
-            <h3>{{video.title}}</h3>
-            <h4>{{video.role}}</h4>
-            <div class='embed-container'>
-                <iframe :src="video.href" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <div class="vidWidth">
+            <div id="videos" v-for="video in videos">
+                <div class='embed-container'>
+                    <iframe :src="video.href" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
+                <h2>{{video.title}}</h2>
+                <h3>{{video.role}}</h3>
             </div>
         </div>
     </div>
@@ -63,15 +64,5 @@
 </script>
 
 <style scoped>
-    h1 {
-        margin: 1.2rem;
-    }
-    
-    h3 {
-        margin-top: 0;
-    }
 
-    h4 {
-        margin: 0;
-    }
 </style>

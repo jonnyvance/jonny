@@ -202,6 +202,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'ads',
@@ -231,7 +232,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
 //
 //
 //
@@ -336,6 +336,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'studioC',
@@ -418,16 +419,17 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
   router,
   template: `
   <div id="app">
-    <router-link to="/" id="name">
-       <h1>jonny vance</h1>
-    </router-link>
-    <nav>
-      <router-link to="/">ads</router-link>
-      <router-link to="/studioC">studio c</router-link>    
-      <router-link to="/about">about</router-link>
-      <router-link to="/contact">contact</router-link>
-    </nav>         
-      <hr />
+    <div id="header">
+      <router-link to="/" id="name">
+         <h1>jonny vance</h1>
+      </router-link>
+      <nav>
+        <router-link to="/">ads</router-link>
+        <router-link to="/studioC">studio c</router-link>    
+        <router-link to="/about">about</router-link>
+        <router-link to="/contact">contact</router-link>
+      </nav>
+    </div>        
     <router-view class="view"></router-view>
   </div>
 `
@@ -566,12 +568,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "studioC"
-  }, [_c('h1', [_vm._v("Studio C")]), _vm._v(" "), _vm._l((_vm.videos), function(video) {
+  }, [_c('div', {
+    staticClass: "vidWidth"
+  }, _vm._l((_vm.videos), function(video) {
     return _c('div', {
       attrs: {
         "id": "videos"
       }
-    }, [_c('h3', [_vm._v(_vm._s(video.title))]), _vm._v(" "), _c('h4', [_vm._v(_vm._s(video.role))]), _vm._v(" "), _c('div', {
+    }, [_c('div', {
       staticClass: "embed-container"
     }, [_c('iframe', {
       attrs: {
@@ -581,8 +585,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         "mozallowfullscreen": "",
         "allowFullScreen": ""
       }
-    })], 1)])
-  })], 2)
+    })], 1), _vm._v(" "), _c('h2', [_vm._v(_vm._s(video.title))]), _vm._v(" "), _c('h3', [_vm._v(_vm._s(video.role))])])
+  }))])
 },staticRenderFns: []}
 
 /***/ }),
@@ -594,7 +598,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "contact"
-  }, [_c('h1', [_vm._v("Contact")]), _vm._v(" "), _c('form', {
+  }, [_c('form', {
     attrs: {
       "action": "https://formspree.io/Jonny@harmonbrothers.com",
       "method": "POST"
@@ -663,12 +667,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "ads"
-  }, [_c('h1', [_vm._v("Advertisements")]), _vm._v(" "), _vm._l((_vm.videos), function(video) {
+  }, [_c('div', {
+    staticClass: "vidWidth"
+  }, _vm._l((_vm.videos), function(video) {
     return _c('div', {
       attrs: {
         "id": "videos"
       }
-    }, [_c('h3', [_vm._v(_vm._s(video.title))]), _vm._v(" "), _c('h4', [_vm._v(_vm._s(video.role))]), _vm._v(" "), _c('div', {
+    }, [_c('div', {
       staticClass: "embed-container"
     }, [_c('iframe', {
       attrs: {
@@ -678,10 +684,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         "mozallowfullscreen": "",
         "allowFullScreen": ""
       }
-    })], 1)])
-  })], 2)
+    })], 1), _vm._v(" "), _c('h2', [_vm._v(_vm._s(video.title))]), _vm._v(" "), _c('h3', [_vm._v(_vm._s(video.role))])])
+  }))])
 },staticRenderFns: []}
 
 /***/ })
 ],[15]);
-//# sourceMappingURL=app.ad1581e7cc9390931107.js.map
+//# sourceMappingURL=app.b1cc43ca7b7046cbf677.js.map

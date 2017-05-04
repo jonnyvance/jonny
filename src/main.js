@@ -28,16 +28,17 @@ new Vue({
 router, 
 template: `
   <div id="app">
-    <router-link to="/" id="name">
-       <h1>jonny vance</h1>
-    </router-link>
-    <nav>
-      <router-link to="/">ads</router-link>
-      <router-link to="/studioC">studio c</router-link>    
-      <router-link to="/about">about</router-link>
-      <router-link to="/contact">contact</router-link>
-    </nav>         
-      <hr />
+    <div id="header">
+      <router-link to="/" id="name">
+         <h1>jonny vance</h1>
+      </router-link>
+      <nav>
+        <router-link to="/">ads</router-link>
+        <router-link to="/studioC">studio c</router-link>    
+        <router-link to="/about">about</router-link>
+        <router-link to="/contact">contact</router-link>
+      </nav>
+    </div>        
     <router-view class="view"></router-view>
   </div>
 `,
