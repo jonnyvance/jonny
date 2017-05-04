@@ -243,6 +243,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'contact',
@@ -596,21 +597,32 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "contact"
   }, [_c('h1', [_vm._v("Contact")]), _vm._v(" "), _c('form', {
     attrs: {
-      "action": "http://formspree.io/cassivance@gmail.com"
+      "action": "https://formspree.io/Jonny@harmonbrothers.com",
+      "method": "POST"
     }
-  }, [_vm._v("\n        email: "), _c('input', {
+  }, [_vm._v("\n        name: "), _c('input', {
     attrs: {
-      "type": "text"
+      "type": "text",
+      "name": "name"
     }
-  }), _vm._v("\n        name: "), _c('input', {
+  }), _vm._v("\n        email: "), _c('input', {
     attrs: {
-      "type": "text"
+      "type": "email",
+      "name": "_replyto"
     }
-  }), _vm._v("\n        message: "), _c('input', {
+  }), _vm._v("\n        message: "), _c('textarea', {
     attrs: {
-      "type": "text"
+      "name": "message",
+      "id": "",
+      "cols": "30",
+      "rows": "10"
     }
-  }), _vm._v(" "), _c('button', [_vm._v("submit")])])])
+  }), _vm._v(" "), _c('input', {
+    attrs: {
+      "type": "submit",
+      "value": "Send"
+    }
+  })])])
 }]}
 
 /***/ }),
@@ -673,4 +685,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[15]);
-//# sourceMappingURL=app.aac51be05e8b86544199.js.map
+//# sourceMappingURL=app.2ecbd00b8f4b7ad83bf9.js.map

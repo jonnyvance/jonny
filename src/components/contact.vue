@@ -1,11 +1,12 @@
 <template>
     <div class="contact">
         <h1>Contact</h1>
-        <form action="http://formspree.io/cassivance@gmail.com">
-            email: <input type="text">
-            name: <input type="text">
-            message: <input type="text">
-            <button>submit</button>
+        <form action="https://formspree.io/Jonny@harmonbrothers.com"
+            method="POST">
+            name: <input type="text" name="name">
+            email: <input type="email" name="_replyto">
+            message: <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send">
         </form>
     </div>
 </template>
