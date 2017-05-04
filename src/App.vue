@@ -49,4 +49,19 @@ nav {
 h1 {
   margin: 0;
 }
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+  } 
+  .embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 10%; 
+    left: 12%; 
+    width: 75%; 
+    height: 75%; 
+}
 </style>

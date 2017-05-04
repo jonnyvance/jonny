@@ -11,7 +11,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(10),
   /* template */
-  __webpack_require__(25),
+  __webpack_require__(26),
   /* scopeId */
   "data-v-7f8c7f08",
   /* cssModules */
@@ -33,7 +33,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(13),
   /* template */
-  __webpack_require__(22),
+  __webpack_require__(23),
   /* scopeId */
   "data-v-03ab5d7c",
   /* cssModules */
@@ -55,7 +55,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(9),
   /* template */
-  __webpack_require__(26),
+  __webpack_require__(27),
   /* scopeId */
   null,
   /* cssModules */
@@ -77,7 +77,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(11),
   /* template */
-  __webpack_require__(27),
+  __webpack_require__(28),
   /* scopeId */
   "data-v-bc3ff12a",
   /* cssModules */
@@ -99,7 +99,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(12),
   /* template */
-  __webpack_require__(24),
+  __webpack_require__(25),
   /* scopeId */
   "data-v-5e349d4a",
   /* cssModules */
@@ -121,7 +121,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(14),
   /* template */
-  __webpack_require__(23),
+  __webpack_require__(24),
   /* scopeId */
   "data-v-2d65cfe8",
   /* cssModules */
@@ -171,6 +171,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'about',
@@ -205,6 +208,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data() {
         return {
             videos: [{
+                title: 'Camp Chef',
+                href: 'https://www.youtube.com/embed/fulJLYgsfSw',
+                role: 'Head-Writer'
+            }, {
                 title: 'Chatbooks',
                 href: 'https://www.youtube.com/embed/PTTs7ewuDY8',
                 role: 'Co-Writer with David Vance'
@@ -212,17 +219,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 title: 'Unicorn Gold',
                 href: 'https://www.youtube.com/embed/LqL4DRZ2EkA',
                 role: 'Co-Writer with David Vance'
-            }, {
-                title: 'Camp Chef',
-                href: 'https://www.youtube.com/embed/DJgz7CStWlY',
-                role: 'Co-Composer with David Vance'
-            }, {
-                title: 'Temp',
-                href: 'https://www.youtube.com/embed/am1tzttZ8Pc',
-                role: 'Co-Composer with David Vance'
-            }, {
-                href: 'https://www.youtube.com/embed/6OmQ7BnvWDU',
-                role: 'Co-Composer with David Vance'
             }]
         };
     },
@@ -235,6 +231,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -330,24 +332,40 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'studioC',
     data() {
         return {
             videos: [{
+                title: 'Bop It Extreme',
                 href: 'https://www.youtube.com/embed/ayBmsWKqdnc',
                 role: 'Writer'
             }, {
+                title: "The Hunger Games Musical: Peeta's Song",
                 href: 'https://www.youtube.com/embed/JXO44xIvyuY',
                 role: 'Co-Composer with David Vance'
             }, {
-                href: 'https://www.youtube.com/embed/DJgz7CStWlY',
+                title: "The Hunger Games Musical: Gale's Song",
+                href: 'https://www.youtube.com/embed/1cayQGVTwjs',
                 role: 'Co-Composer with David Vance'
             }, {
+                title: "The Hunger Games Musical: Katniss' Song",
                 href: 'https://www.youtube.com/embed/am1tzttZ8Pc',
                 role: 'Co-Composer with David Vance'
             }, {
+                title: 'No Such Thing as a Stupid Question',
+                href: 'https://www.youtube.com/embed/RLt1HoAPniM',
+                role: 'Writer'
+            }, {
+                title: 'Adopting a New Cat',
+                href: 'https://www.youtube.com/embed/1gobC1u-5Og',
+                role: 'Writer'
+            }, {
+                title: 'Marvel Avengers Musical',
                 href: 'https://www.youtube.com/embed/6OmQ7BnvWDU',
                 role: 'Co-Composer with David Vance'
             }]
@@ -454,6 +472,12 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 
 /***/ }),
 /* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/img/jonny.e9dd97f.jpg";
+
+/***/ }),
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -536,36 +560,30 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "studioC"
   }, [_c('h1', [_vm._v("Studio C")]), _vm._v(" "), _vm._l((_vm.videos), function(video) {
-    return _c('div', [_c('iframe', {
+    return _c('div', {
       attrs: {
-        "width": "560",
-        "height": "315",
+        "id": "videos"
+      }
+    }, [_c('h3', [_vm._v(_vm._s(video.title))]), _vm._v(" "), _c('h4', [_vm._v(_vm._s(video.role))]), _vm._v(" "), _c('div', {
+      staticClass: "embed-container"
+    }, [_c('iframe', {
+      attrs: {
         "src": video.href,
         "frameborder": "0",
-        "allowfullscreen": ""
+        "webkitAllowFullScreen": "",
+        "mozallowfullscreen": "",
+        "allowFullScreen": ""
       }
-    }), _vm._v(" "), _c('h3', [_vm._v(_vm._s(video.role))])], 1)
+    })], 1)])
   })], 2)
 },staticRenderFns: []}
-
-/***/ }),
-/* 24 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "contact"
-  }, [_c('h1', [_vm._v("Contact")])])
-}]}
 
 /***/ }),
 /* 25 */
@@ -575,12 +593,48 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "about"
-  }, [_c('h1', [_vm._v("About")])])
+    staticClass: "contact"
+  }, [_c('h1', [_vm._v("Contact")]), _vm._v(" "), _c('form', {
+    attrs: {
+      "action": "http://formspree.io/cassivance@gmail.com"
+    }
+  }, [_vm._v("\n        email: "), _c('input', {
+    attrs: {
+      "type": "text"
+    }
+  }), _vm._v("\n        name: "), _c('input', {
+    attrs: {
+      "type": "text"
+    }
+  }), _vm._v("\n        message: "), _c('input', {
+    attrs: {
+      "type": "text"
+    }
+  }), _vm._v(" "), _c('button', [_vm._v("submit")])])])
 }]}
 
 /***/ }),
 /* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "about"
+  }, [_c('div', {
+    attrs: {
+      "id": "intro"
+    }
+  }, [_c('p', [_vm._v(" I write ads for companies like Squatty Potty and Chatbooks, write sketches for Studio C, and market for VidAngel. My parents wanted me to be a doctor. "), _c('br'), _vm._v(" "), _c('br'), _vm._v("I think comedy makes messages interesting, palatable, and ripe for connection. My goal is to create a comedic political show that encourages better discourse between conservatives, liberals, and libertarians. If you can help make that happen, I'd love to hear from you (see contact page). Particularly if you can introduce me to John Oliver, Samantha Bee, Jonathan Haidt, or David Brooks. "), _c('br'), _vm._v(" "), _c('br'), _vm._v("The videos I've written for have been viewed over 500 million times. My roommate said that means I've wasted about 40 lifetimes. I'm sorry.")]), _vm._v(" "), _c('img', {
+    attrs: {
+      "src": __webpack_require__(22)
+    }
+  })])])
+}]}
+
+/***/ }),
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -592,7 +646,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -603,7 +657,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       attrs: {
         "id": "videos"
       }
-    }, [_c('h3', [_vm._v(_vm._s(video.title))]), _vm._v(" "), _c('div', {
+    }, [_c('h3', [_vm._v(_vm._s(video.title))]), _vm._v(" "), _c('h4', [_vm._v(_vm._s(video.role))]), _vm._v(" "), _c('div', {
       staticClass: "embed-container"
     }, [_c('iframe', {
       attrs: {
@@ -613,10 +667,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         "mozallowfullscreen": "",
         "allowFullScreen": ""
       }
-    })], 1), _vm._v(" "), _c('h4', [_vm._v(_vm._s(video.role))])])
+    })], 1)])
   })], 2)
 },staticRenderFns: []}
 
 /***/ })
 ],[15]);
-//# sourceMappingURL=app.9fc3ae3033c28ff331a0.js.map
+//# sourceMappingURL=app.aac51be05e8b86544199.js.map
