@@ -24,14 +24,23 @@
 <style scoped>
     #intro {
         display: flex;
-        margin: 5rem 1rem;
+        margin: auto;
+    }
+
+    .view {
+        margin: 2rem;
     }
 
     p {
-        margin: 1rem;
+        margin: 4rem 2rem;
+        max-width: 60%;
     }
 
     img {
         align-self: center;
+    }
+
+    .view {
+        margin: 4rem 4rem;
     }
 </style>

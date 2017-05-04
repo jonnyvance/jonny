@@ -244,6 +244,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'contact',
@@ -608,12 +610,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "type": "text",
       "name": "name"
     }
-  }), _vm._v("\n        email: "), _c('input', {
+  }), _vm._v(" "), _c('br'), _vm._v("\n        email: "), _c('input', {
     attrs: {
       "type": "email",
       "name": "_replyto"
     }
-  }), _vm._v("\n        message: "), _c('textarea', {
+  }), _vm._v(" "), _c('br'), _vm._v("\n        message: "), _c('textarea', {
     attrs: {
       "name": "message",
       "id": "",
@@ -623,7 +625,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }), _vm._v(" "), _c('input', {
     attrs: {
       "type": "submit",
-      "value": "Send"
+      "value": "Send",
+      "id": "button"
     }
   })])])
 }]}
@@ -690,4 +693,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[15]);
-//# sourceMappingURL=app.b1cc43ca7b7046cbf677.js.map
+//# sourceMappingURL=app.5711d2c31d802a7320c6.js.map
