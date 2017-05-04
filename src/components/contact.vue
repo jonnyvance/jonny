@@ -41,6 +41,5 @@ form {
 
 #button {
     max-width: 10rem;
-    margin: auto;
 }
 </style>
