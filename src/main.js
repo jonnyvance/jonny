@@ -16,11 +16,11 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    {path: '/', component: about},
-    {path: '/resume', component: resume},
-    {path: '/studioC', component: studioC},
-    {path: '/contact', component: contact},
-    {path: '/ads', component: ads}
+    {path: '/about/', component: about},
+    {path: '/resume/', component: resume},
+    {path: '/studioC/', component: studioC},
+    {path: '/contact/', component: contact},
+    {path: '/', component: ads}
   ]
 });
 /* eslint-disable no-new */
@@ -32,10 +32,9 @@ template: `
        <h1>jonny vance</h1>
     </router-link>
     <nav>
-      <router-link to="/">about</router-link>
-      <router-link to="/ads">ads</router-link>
+      <router-link to="/">ads</router-link>
       <router-link to="/studioC">studio c</router-link>    
-      <router-link to="/resume">resume</router-link>  
+      <router-link to="/about">about</router-link>
       <router-link to="/contact">contact</router-link>
     </nav>         
       <hr />

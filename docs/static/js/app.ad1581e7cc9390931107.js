@@ -411,7 +411,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODU
 const router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
   mode: 'history',
   base: __dirname,
-  routes: [{ path: '/', component: __WEBPACK_IMPORTED_MODULE_3__components_about___default.a }, { path: '/resume', component: __WEBPACK_IMPORTED_MODULE_4__components_resume___default.a }, { path: '/studioC', component: __WEBPACK_IMPORTED_MODULE_5__components_studioC___default.a }, { path: '/contact', component: __WEBPACK_IMPORTED_MODULE_6__components_contact___default.a }, { path: '/ads', component: __WEBPACK_IMPORTED_MODULE_7__components_ads___default.a }]
+  routes: [{ path: '/about/', component: __WEBPACK_IMPORTED_MODULE_3__components_about___default.a }, { path: '/resume/', component: __WEBPACK_IMPORTED_MODULE_4__components_resume___default.a }, { path: '/studioC/', component: __WEBPACK_IMPORTED_MODULE_5__components_studioC___default.a }, { path: '/contact/', component: __WEBPACK_IMPORTED_MODULE_6__components_contact___default.a }, { path: '/', component: __WEBPACK_IMPORTED_MODULE_7__components_ads___default.a }]
 });
 /* eslint-disable no-new */
 new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
@@ -422,10 +422,9 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
        <h1>jonny vance</h1>
     </router-link>
     <nav>
-      <router-link to="/">about</router-link>
-      <router-link to="/ads">ads</router-link>
+      <router-link to="/">ads</router-link>
       <router-link to="/studioC">studio c</router-link>    
-      <router-link to="/resume">resume</router-link>  
+      <router-link to="/about">about</router-link>
       <router-link to="/contact">contact</router-link>
     </nav>         
       <hr />
@@ -685,4 +684,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[15]);
-//# sourceMappingURL=app.2ecbd00b8f4b7ad83bf9.js.map
+//# sourceMappingURL=app.ad1581e7cc9390931107.js.map
