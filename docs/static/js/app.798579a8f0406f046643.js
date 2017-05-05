@@ -11,7 +11,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(10),
   /* template */
-  __webpack_require__(26),
+  __webpack_require__(25),
   /* scopeId */
   "data-v-7f8c7f08",
   /* cssModules */
@@ -33,7 +33,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(13),
   /* template */
-  __webpack_require__(23),
+  __webpack_require__(22),
   /* scopeId */
   "data-v-03ab5d7c",
   /* cssModules */
@@ -55,7 +55,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(9),
   /* template */
-  __webpack_require__(27),
+  __webpack_require__(26),
   /* scopeId */
   null,
   /* cssModules */
@@ -77,7 +77,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(11),
   /* template */
-  __webpack_require__(28),
+  __webpack_require__(27),
   /* scopeId */
   "data-v-bc3ff12a",
   /* cssModules */
@@ -99,7 +99,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(12),
   /* template */
-  __webpack_require__(25),
+  __webpack_require__(24),
   /* scopeId */
   "data-v-5e349d4a",
   /* cssModules */
@@ -121,7 +121,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(14),
   /* template */
-  __webpack_require__(24),
+  __webpack_require__(23),
   /* scopeId */
   "data-v-2d65cfe8",
   /* cssModules */
@@ -476,12 +476,6 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 
 /***/ }),
 /* 22 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/img/jonny.e9dd97f.jpg";
-
-/***/ }),
-/* 23 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -564,7 +558,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -592,7 +586,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -632,8 +626,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 }]}
 
 /***/ }),
-/* 26 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 25 */
+/***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
@@ -646,13 +640,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('p', [_vm._v(" I write ads for companies like Squatty Potty and Chatbooks, write sketches for Studio C, and market for VidAngel. My parents wanted me to be a doctor. "), _c('br'), _vm._v(" "), _c('br'), _vm._v("I think comedy makes messages interesting, palatable, and ripe for connection. My goal is to create a comedic political show that encourages better discourse between conservatives, liberals, and libertarians. If you can help make that happen, I'd love to hear from you (see contact page). Particularly if you can introduce me to John Oliver, Samantha Bee, Jonathan Haidt, or David Brooks. "), _c('br'), _vm._v(" "), _c('br'), _vm._v("The videos I've written for have been viewed over 500 million times. My roommate said that means I've wasted about 40 lifetimes. I'm sorry.")]), _vm._v(" "), _c('img', {
     attrs: {
-      "src": __webpack_require__(22)
+      "src": "https://github.com/jonnyvance/jonny/raw/master/src/assets/jonny.jpg"
     }
   })])])
 }]}
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -664,7 +658,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -693,4 +687,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[15]);
-//# sourceMappingURL=app.925e743a72fdaa922e6b.js.map
+//# sourceMappingURL=app.798579a8f0406f046643.js.map
