@@ -16,11 +16,12 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    {path: '/about/', component: about},
-    {path: '/resume/', component: resume},
-    {path: '/studioC/', component: studioC},
-    {path: '/contact/', component: contact},
-    {path: '/', component: ads}
+    {path: '/about', component: about},
+    {path: '/resume', component: resume},
+    {path: '/studioC', component: studioC},
+    {path: '/contact', component: contact},
+    {path: '/', component: ads},
+    {path: '/jonny', component: ads}
   ]
 });
 /* eslint-disable no-new */

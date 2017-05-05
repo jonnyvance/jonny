@@ -29,7 +29,7 @@
 <style scoped>
 
 .view {
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 form {
@@ -40,6 +40,6 @@ form {
 }
 
 #button {
-    max-width: 10rem;
+    margin: auto;
 }
 </style>
