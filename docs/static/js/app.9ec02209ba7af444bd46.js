@@ -413,7 +413,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODU
 
 const router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
   mode: 'history',
-  base: __dirname,
+  base: '/jonny' + __dirname,
   routes: [{ path: '/about', component: __WEBPACK_IMPORTED_MODULE_3__components_about___default.a }, { path: '/resume', component: __WEBPACK_IMPORTED_MODULE_4__components_resume___default.a }, { path: '/studioC', component: __WEBPACK_IMPORTED_MODULE_5__components_studioC___default.a }, { path: '/contact', component: __WEBPACK_IMPORTED_MODULE_6__components_contact___default.a }, { path: '/', component: __WEBPACK_IMPORTED_MODULE_7__components_ads___default.a }, { path: '/jonny', component: __WEBPACK_IMPORTED_MODULE_7__components_ads___default.a }]
 });
 /* eslint-disable no-new */
@@ -687,4 +687,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[15]);
-//# sourceMappingURL=app.798579a8f0406f046643.js.map
+//# sourceMappingURL=app.9ec02209ba7af444bd46.js.map
